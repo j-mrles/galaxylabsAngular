@@ -1,0 +1,38 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  #logonav {
+    height: 40px;
+  }
+  
+  #navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  #navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  
+  .icon {
+    display: none; /* Hide the icon by default */
+  }
+  
+  /* Example of responsive design */
+  @media screen and (max-width: 768px) {
+    #navigation {
+      display: none; /* Hide navigation links by default on small screens */
+    }
+    
+    .icon {
+      display: block; /* Show the icon on small screens */
+    }
+  }
+  
