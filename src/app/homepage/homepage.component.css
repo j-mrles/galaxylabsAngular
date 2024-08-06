@@ -1,4 +1,37 @@
-section{
-    color: black;
-    background-color: brown;
-}
+/* homepage.component.css */
+
+.hero {
+    background: url('/assets/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .services {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  mat-card {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .about-us {
+    background: #000000;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
