@@ -1,24 +1,102 @@
-<!-- homepage.component.html -->
+<div class="container">
 
-<!-- Hero Section -->
-<section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to Galaxy Labs</h1>
-      <p>Your partner in innovative tech solutions</p>
-      <button mat-button color="primary">Learn More</button>
+  <!-- Header Section -->
+  <header id="home" style="position: relative; text-align: center; color: white;">
+    <img id="logo" src="images/galaxylabslogo.png" alt="Galaxy Labs Logo" style="max-width: 100%; height: auto;">
+    <p class="slide-in-left" style="font-size: 2rem; margin-top: 20px;">Innovating the Future</p>
+    <a href="https://www.instagram.com/galaxylabsinsta/" target="_blank">
+      <button class="button" style="background-color: #00bcd4; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem;">
+        Learn More
+      </button>
+    </a>
+    <video autoplay loop muted playsinline id="background-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+      <source src="images/medicaltablet.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </header>
+
+  <!-- About Section -->
+  <div style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
+    <img src="images/earth-fade.png" alt="Background Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    <section id="about" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white; background: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 8px;">
+      <h2>What We Do</h2>
+      <p>
+        At Galaxy Labs, we are dedicated to pushing the boundaries of technology
+        to create innovative solutions that improve lives. Our team of experts is
+        passionate about developing cutting-edge software and hardware to meet the
+        needs of our clients and drive the tech industry forward.
+      </p>
+    </section>
+  </div>
+
+  <!-- More Services Section -->
+  <div id="more-services" style="background-color: black; color: white; padding: 40px 100px;">
+    <h2 style="color: white; text-align: center;">More Services</h2>
+    <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
+      <div class="service" style="background-color: #333; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <h3>Custom Software Solutions</h3>
+        <p>Our team of experienced developers will work closely with you to understand your business requirements, goals, and pain points to develop a solution that is tailored to your unique needs.</p>
+        <a href="#learn-more-custom-software" class="learn-more" style="color: #00bcd4; text-decoration: none;">Learn More</a>
+      </div>
+      <div class="service" style="background-color: #333; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <h3>Mobile Applications</h3>
+        <p>Our team of developers can create, design, and rebuild any application to attract more customers and increase your business revenue.</p>
+        <a href="#learn-more-mobile-apps" class="learn-more" style="color: #00bcd4; text-decoration: none;">Learn More</a>
+      </div>
+      <div class="service" style="background-color: #333; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <h3>Web Application Development</h3>
+        <p>Our team of experienced developers has a deep understanding of the latest technologies and frameworks that are essential for creating high-performance, scalable, and secure web applications.</p>
+        <a href="#learn-more-web-app-dev" class="learn-more" style="color: #00bcd4; text-decoration: none;">Learn More</a>
+      </div>
+      <div class="service" style="background-color: #333; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <h3>API Integration</h3>
+        <p>We can integrate your off-the-shelf software utilizing API configurations into your custom software. Whether you need to integrate your CRM system with your accounting software or connect your e-commerce platform with your shipping provider, our team can help.</p>
+        <a href="#learn-more-api-integration" class="learn-more" style="color: #00bcd4; text-decoration: none;">Learn More</a>
+      </div>
     </div>
-  </section>
-  
-  <!-- Services Section -->
-  <section class="services">
-    <h2>Our Services</h2>
+  </div>
 
-  </section>
-  
-  <!-- About Us Section -->
-  <section class="about-us">
-    <h2>About Us</h2>
-    <p>Galaxy Labs is dedicated to providing cutting-edge technology solutions that drive innovation and efficiency.</p>
-    <button mat-button color="accent">Read More</button>
-  </section>
-  
+  <!-- Projects Section -->
+  <div style="position: relative; width: 100%; height: 100vh; overflow: hidden;">
+    <img src="images/galaxy.png" alt="Background Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+    
+    <div id="software-problem" style="display: flex; flex-wrap: wrap; justify-content: space-between; position: relative; padding: 100px 20px;">
+      <div class="left-section" style="flex: 1; min-width: 300px; display: flex; align-items: center; justify-content: center; text-align: center;">
+        <p class="stacked-text" style="color: white; font-size: 2rem; line-height: 1.5; margin: 0;">
+          Building.<br><br>
+          Innovating.<br><br>
+          Together.
+        </p>
+      </div>
+      <div class="right-section" style="flex: 1; min-width: 300px; padding: 20px; background-color: #333; border-radius: 8px;">
+        <div class="info-section" style="text-align: center;">
+          <h2 style="margin-bottom: 10px;">Have a Software Problem?</h2>
+          <p style="margin-bottom: 20px;">Together, let’s find a solution.</p>
+          <a href="https://www.instagram.com/galaxylabsinsta/" style="text-decoration: none; color: white;">
+            <h1 style="margin: 0; font-size: 1.5rem; color: #00bcd4;">Contact Us Here</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Genesis Section -->
+<div id="genesis" style="position: relative; text-align: center; color: white; padding: 100px 20px; height: 100vh; overflow: hidden; background: rgba(0, 0, 0, 0.7);">
+  <video autoplay loop muted playsinline id="background-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+    <source src="images/medical_background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center;">
+    <h2 style="font-size: 3rem; margin-bottom: 20px;">Introducing Genesis</h2>
+    <p style="font-size: 1.25rem; margin-bottom: 40px; max-width: 600px; line-height: 1.5;">
+   Using algorithms and medical data, Genesis offers health assessments and accurate diagnostics.    </p>
+    <a href="https://www.instagram.com/galaxylabsinsta/" target="_blank">
+      <button class="button" style="background-color: #00bcd4; color: white; border: none; padding: 15px 30px; border-radius: 4px; cursor: pointer; font-size: 1.25rem; transition: background-color 0.3s;">
+        Learn More
+      </button>
+    </a>
+  </div>
+</div>
+
+
+</div>
