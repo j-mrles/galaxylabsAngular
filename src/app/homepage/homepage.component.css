@@ -3,42 +3,24 @@
   margin: 0 auto;
 }
 
-section{
-margin: 0 150px;
-}
 /* Header styling */
 header#home {
   position: relative;
   overflow: hidden;
   text-align: center;
   color: white;
-  padding:280px 20px;
+  padding: 280px 20px;
   top: -20%;
 }
 
 #logo {
   max-width: 1000px;
   margin-bottom: 20px;
-
 }
 
-.slide-in-left {
-  font-size: 2rem;
-  font-weight: bold;
-}
 
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 
-.button {
+.button, .learn-more {
   background-color: #007bff;
   color: white;
   border: none;
@@ -51,13 +33,14 @@ header#home {
 
 #background-video {
   position: absolute;
-  top:00px; /* Adjust this value to lower the video */
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: -1;
 }
+
 /* About section styling */
 #about {
   text-align: center;
@@ -72,74 +55,6 @@ header#home {
 #about p {
   font-size: 1.2rem;
   line-height: 1.6;
-}
-
-/* Stats section styling */
-#stats {
-  background: #f8f9fa;
-  padding: 50px 20px;
-}
-
-.stats-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.stat {
-  flex: 1 1 20%;
-  text-align: center;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-}
-
-.stat h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.stat span {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-/* Services section styling */
-#services {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-#services h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-}
-
-.services-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#earth-home {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-#services-list ul {
-  list-style: none;
-  padding: 0;
-}
-
-#services-list li {
-  margin-bottom: 20px;
-}
-
-#services-list h2 {
-  font-size: 2rem;
-  margin: 20px 0;
 }
 
 /* More Services section styling */
@@ -160,86 +75,10 @@ header#home {
   gap: 20px;
 }
 
-.service {
-  background: #495057;
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-}
-
-.service h3 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-}
-
-.service p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-.learn-more {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
 /* Projects section styling */
-#projects {
-  padding: 50px 20px;
-  text-align: center;
-}
-
 #software-problem {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.left-section {
-  flex: 1;
-  padding: 20px;
-}
-
-.stacked-text {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-.right-section {
-  flex: 1;
-  padding: 20px;
-  background: #007bff;
-  color: white;
-}
-
-.info-section h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.info-section p {
-  font-size: 1.2rem;
-}
-
-.info-section h1 a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Footer styling */
-footer {
-  background: #343a40;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-footer p {
-  margin: 0;
-}
