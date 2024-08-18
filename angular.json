@@ -16,6 +16,8 @@
             "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/galaxylabs2.0/",
+
             "polyfills": [
               "zone.js"
             ],
