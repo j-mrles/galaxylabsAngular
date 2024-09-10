@@ -1,27 +1,60 @@
-# MyAngularApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+# GalaxyLabs Website
 
-## Development server
+This repository contains the source code for the GalaxyLabs website, developed using Angular. The site presents GalaxyLabs' innovative solutions in software, mobile, and web applications, along with API integrations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Project Highlights
+- **Dynamic API Integration**: Custom-built service that handles API integration, allowing seamless communication between front-end and back-end services.
+- **Responsive Design**: The website is optimized for mobile devices using Angular Flex Layout and custom CSS, providing a smooth user experience across various screen sizes.
 
-## Code scaffolding
+## Setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
+- Node.js (v14 or higher)
+- Angular CLI (v12 or higher)
 
-## Build
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/j-mrles/galaxylabsAngular.git
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the project directory:
+   ```bash
+   cd galaxylabsAngular
+   ```
 
-## Running unit tests
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Running the Application
 
-## Running end-to-end tests
+To run the app locally:
+```bash
+ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Visit `http://localhost:4200/` to view it.
 
-## Further help
+### Build
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For a production build:
+```bash
+ng build
+```
+
+Build files will be located in the `dist/` directory.
+
+## Technologies Used
+
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+- Angular Material
+
+## License
+
+This project is licensed under the MIT License.
